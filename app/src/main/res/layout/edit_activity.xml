@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".EditActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_ayf"/>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/phone_number_icon"
+            android:drawablePadding="10dp"
+            android:text="Phone Number"
+            android:inputType="number"
+            android:focusable="false"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="10dp"
+            android:text="Password"
+            android:inputType="textVisiblePassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/username_icon"
+            android:drawablePadding="10dp"
+            android:text="Name"
+            android:inputType="textCapWords"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/birthdate_icon"
+            android:drawablePadding="10dp"
+            android:text="Birthdate"
+            android:focusable="false"
+            android:drawableRight="@drawable/arrow_down"
+            android:inputType="datetime"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shapeemail">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male"
+                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"/>
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female"
+                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/address_icon"
+            android:drawablePadding="10dp"
+            android:text="Address"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/colorWhite"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shapelogin"/>
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/shapesignup"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</ScrollView>

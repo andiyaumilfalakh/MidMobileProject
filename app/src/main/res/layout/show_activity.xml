@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ShowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_ayf"/>
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/phone_number_icon"
+            android:drawablePadding="10dp"
+            android:text="Phone Number"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/username_icon"
+            android:drawablePadding="10dp"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/birthdate_icon"
+            android:drawablePadding="10dp"
+            android:text="Birthdate"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/gender_icon"
+            android:drawablePadding="10dp"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/address_icon"
+            android:drawablePadding="10dp"
+            android:text="Address"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"/>
+
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/shapesignup"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</ScrollView>
